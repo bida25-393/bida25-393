@@ -80,4 +80,15 @@
             flex-direction: column;
             justify-content: space-between;
         }
+        .about-us-box {
+            padding: 20px;
+            background-color: rgba(34, 139, 34, 0.8);
+            color: white;
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+
+
 
