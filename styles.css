@@ -89,12 +89,22 @@
             margin: 0 auto;
             border-radius: 8px;
         }
+        .footer { 
+            background-color:rgba(34, 139, 34, 0.8);
+            color: white;
+            text-align: center; 
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%; 
+
+       } 
      @media (max-width: 768px) {
         .navbar ul {
-            flex-direction: column; /* stack items on small screens */
+            flex-direction: column;
         }
         .cart-container {
-            flex-direction: column; /* cart and summary stacked */
+            flex-direction: column;
        }
      }
 
